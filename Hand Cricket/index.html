@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hand Cricket</title>
+</head>
+
+<body>
+    <h1>HAND CRICKET</h1>
+    <div class="toss"><section class="beforeToss">
+        <h2>Heads or Tails</h2>
+        
+            <input type="radio" name="toss" id="" value="heads"><span>Heads</span>
+            <input type="radio" name="toss" id="" value="tails"><span>Tails</span><br>
+        </section>
+        <section id="aT" class="afterToss">
+            <img src="" alt="">
+            <p class="tossWinner">You won the toss. Bat or Bowl?</p>
+            <input type="radio" name="opt" id="" value="bat"><span>Bat</span>
+            <input type="radio" name="opt" id="" value="bowl"><span>Bowl</span><br>
+        </section>
+        <section id="aTC" class="afterTossComp">
+            <img src="" alt="">
+            <p class="tossWinnerComp"></p>
+        </section>
+    </div>
+    <p class="outAndSix"></p>
+    <div class="row game">
+        <div class="col-sm-6">
+            <h2>Enter Score:</h2>
+            <img src="images/one.png" alt="" id="1">
+            <img src="images/two.png" alt="" id="2">
+            <img src="images/three.png" alt="" id="3">
+            <img src="images/four.png" alt="" id="4">
+            <img src="images/five.png" alt="" id="5">
+            <img src="images/six.png" alt="" id="6">
+        </div>
+        <div class="col-sm-6">
+            <h2>Scoreboard</h2>
+            <div class="row scoreboard">
+                <div class="col-sm-6 yourScore">
+                    <h3>You</h3><br>
+                    <img src="" alt="">
+                </div>
+                <div class="col-sm-6 compScore">
+                    <h3>Computer</h3><br>
+                    <img src="" alt="">
+                </div>
+                <div class="totalScore"></div>
+                <div class="targetScore"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

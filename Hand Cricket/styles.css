@@ -1,0 +1,96 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+    margin: 0;
+    font-style: italic;
+}
+
+.toss{
+    text-align: center;
+}
+
+.toss input{
+    margin: 1.6rem;
+}
+
+.toss span{
+    font-size: 1.4rem;
+}
+
+.toss img{
+    width: 10%;
+}
+
+.beforeTossVis{
+    display: none;
+}
+
+.afterToss{
+    display: none;
+}
+
+.afterTossComp{
+    display: none;
+}
+
+.tossWinnerComp{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+h1{
+    text-align: center;
+    background-color: lightsalmon;
+    margin: 0;
+    padding: 5%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+h3{
+    display: inline-block;
+}
+
+.game{
+    display: none;
+}
+
+.outAndSix{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    background-color: salmon;
+}
+
+.col-sm-6{
+    text-align: center;
+}
+
+.row img {
+    width: 25%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color: white;
+    color: white;
+}
+
+.scoreboard img{
+    width: 30%;
+}
+
+.totalScore, .targetScore{
+    font-size: 2.5rem;
+    color: red;
+    margin-top: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
